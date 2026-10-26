@@ -1,7 +1,7 @@
 # sdd-taskanalyzer
 
 Módulo de métricas de produtividade desenvolvido com Spec-Driven Development
-(SDD) e assistentes de IA, como parte do Bootcamp III (Fase 2).
+(SDD) e assistentes de IA, como parte do Bootcamp III (Fase 3).
 
 O módulo recebe uma lista de tarefas e devolve métricas agregadas: totais,
 tempo médio de conclusão (geral e por prioridade) e taxa de atraso.
@@ -57,6 +57,4 @@ partir de branches `feature/*`. Todo código gerado por IA passa por
 homologação humana antes do merge.
 
 ## Status do build
-
-Fase 2: testes executados localmente (100% aprovados).
-CI/CD com GitHub Actions e Docker entram na Fase 3.
+CI/CD com GitHub Actions e Docker.
