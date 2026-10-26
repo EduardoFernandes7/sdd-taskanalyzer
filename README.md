@@ -10,10 +10,12 @@ tempo médio de conclusão (geral e por prioridade) e taxa de atraso.
 
 | Caminho | Finalidade |
 |---|---|
-| `specs/task_analyzer_spec.md` | Contrato SDD (fonte da verdade) |
+| `specs/requirements.yaml` e `documento` | Matriz de rastreabilidade: regra de negócio e teste |
 | `CONTEXT_RULES.md` | Regras de governança para agentes de IA |
 | `tests/test_harness.py` | Suíte de testes automatizados (pytest) |
 | `src/task_analyzer.py` | Código gerado via IA e homologado por humano |
+| `.github/workflows/ci.yml` | Pipeline de integração contínua (GitHub Actions) |
+| `Dockerfile` e `docker-compose.yml` | Execução isolada dos testes em container |
 
 ## Como executar
 
