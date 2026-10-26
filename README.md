@@ -56,5 +56,17 @@ Git Flow simplificado: `main` recebe alterações apenas via Pull Request, a
 partir de branches `feature/*`. Todo código gerado por IA passa por
 homologação humana antes do merge.
 
-## Status do build
-CI/CD com GitHub Actions e Docker.
+## Como executar com Docker
+
+```bash
+docker build -t sdd-taskanalyzer .
+docker run --rm sdd-taskanalyzer
+# ou, com um único comando:
+docker compose run --rm tests
+```
+
+## Integração contínua
+
+O workflow `CI` roda em push e pull request nas branches `main` e `develop`,
+em ubuntu-latest com Python 3.11. Instala `requirements.txt` e executa
+`pytest tests/test_harness.py -v`.
