@@ -18,6 +18,7 @@ sdd-taskanalyzer/
 ├── docker-compose.yml         # Orquestração: suíte inteira com um único comando
 ├── CONTEXT_RULES.md           # Regras de governança para agentes de IA
 ├── specs/
+│   ├── system_design_document.pdf  # Especificação SDD v1.1 em PDF
 │   ├── task_analyzer_spec.md  # Especificação SDD v1.1 (fonte da verdade)
 │   └── requirements.yaml      # Matriz de rastreabilidade: regra de negócio -> teste
 ├── tests/test_harness.py      # Test Harness (pytest)
